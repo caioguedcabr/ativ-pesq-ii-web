@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: #fff;
+}
+body {
+    display: grid;
+    justify-content: center;
+}
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));   
+    padding-top: 2cm;
+    border: 2px solid #000
+}
+
+.produto {
+    padding: 1cm;
+    text-align: center;   
+    border: 2px solid #000
+}
+
+header {
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
